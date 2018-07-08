@@ -14,5 +14,4 @@ ADD html/ /var/www/html/
 EXPOSE 80
 
 # 6.httpd 실행
-CMD ["/usr/sbin/httpd/", "-D", "FOREGROUND"]
-
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
